@@ -1,5 +1,3 @@
-
-
 // ======================== UI elements ======================== //
 
 const infoText = document.getElementById("info-text");
@@ -439,6 +437,3 @@ board.addEventListener("click", e => {
 
     STATE.game.handlePlayerOption(coordinates[0], coordinates[2], e.target);
 });
-
-
-
