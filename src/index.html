@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic tac toe</title>
+
+    <link rel="stylesheet" href="./css/main.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+</head>
+<body>
+    <main>
+        <h1 id="primary-heading">Tic Tac Toe</h1>
+        <section id="dashboard" class="section">
+            <div class="container">
+
+            </div>
+        </section>
+
+    </main>
+    <div class="container">
+        
+        
+        <p id="info-text" class="xl-text bold"></p>
+
+        <div id="board">
+            <div class="row" data-row="1">
+                <div class="cell" data-cell="0.0"></div>
+                <div class="cell" data-cell="0.1"></div>
+                <div class="cell" data-cell="0.2"></div>
+            </div>
+            <div class="row" data-row="2">
+                <div class="cell" data-cell="1.0"></div>
+                <div class="cell" data-cell="1.1"></div>
+                <div class="cell" data-cell="1.2"></div>
+            </div>
+            <div class="row" data-row="3">
+                <div class="cell" data-cell="2.0"></div>
+                <div class="cell" data-cell="2.1"></div>
+                <div class="cell" data-cell="2.2"></div>
+            </div>
+        </div>
+
+        <div id="control-buttons">
+            <div id="symbol-buttons" class="btn-section">
+                <p class="bold">Chose your symbol</p>
+                <button id="symbol-btn-cross" class="btn l-text symbol-btn selected" data-symbol="X">Cross</button>
+                <button id="symbol-btn-circle" class="btn l-text symbol-btn" data-symbol="O">Circle</button>
+            </div>
+    
+            <div id="start-btn-container" class="btn-section">
+                <button id="start-btn" class="btn l-text">Start Game</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
